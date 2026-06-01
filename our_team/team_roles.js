@@ -127,8 +127,13 @@ function sortMembers(members, groupMap) {
             };
         })
         .sort(function (a, b) {
+            let aIsLeadership = a.member.roles?.indexOf("Lead") !== -1 || a.member.roles?.indexOf("Officer") !== -1;
+            let bIsLeadership = b.member.roles?.indexOf("Lead") !== -1 || b.member.roles?.indexOf("Officer") !== -1;
             if (a.highestGroup !== b.highestGroup) {
                 return a.highestGroup - b.highestGroup;
+            }
+            if (aIsLeadership || bIsLeadership) {
+                return a.originalIndex - b.originalIndex;
             }
             if (a.hasImages !== b.hasImages) {
                 return a.hasImages ? -1 : 1;

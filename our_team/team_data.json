@@ -105,12 +105,7 @@
       "name": "Benjamin Zhang",
       "grade": "11th Grade",
       "roles": [
-        "Founder",
         "President",
-        "Overseer",
-        "King",
-        "Almighty",
-        "God",
         "Officer",
         "Problem Writing",
         "Operations",
@@ -154,6 +149,22 @@
       "bio": "Tianlin is a 10th grader from Lynbrook High School. Her favorite subject is geometry. Outside of math, she also likes drawing and reading."
     },
     {
+      "name": "Benjamin Oh",
+      "grade": "11th Grade",
+      "roles": [
+        "Lead",
+        "Problem Writing"
+      ]
+    },
+    {
+      "name": "Nitin Reddy Vaka",
+      "grade": "11th Grade",
+      "roles": [
+        "Lead",
+        "Problem Writing"
+      ]
+    },
+    {
       "name": "Yunfei Xia",
       "grade": "10th Grade",
       "roles": [
@@ -191,14 +202,6 @@
         "/assets/team_introductions/abhigyans.jpeg"
       ],
       "bio": "Abhigyan Singh is a junior at Lynbrook High School interested in mathematics and computer science. In his free time, you can probably find him cubing, cooking, or playing Minecraft."
-    },
-    {
-      "name": "Benjamin Oh",
-      "grade": "11th Grade",
-      "roles": [
-        "Lead",
-        "Problem Writing"
-      ]
     },
     {
       "name": "Tommy Wang",
@@ -308,14 +311,6 @@
         "/assets/team_introductions/ryanw3.png"
       ],
       "bio": "Despite being named \"iliketrains\", one does not enjoy trains more than the average person."
-    },
-    {
-      "name": "Nitin Reddy Vaka",
-      "grade": "11th Grade",
-      "roles": [
-        "Lead",
-        "Problem Writing"
-      ]
     },
     {
       "name": "Ethan Han",
