@@ -3,7 +3,6 @@
     const sponsorRevealVisibleViewportRatio = 0.5;
     const sponsorRevealBottomTolerance = 2;
     const sponsorCardSelector = '.sponsor-logo-card';
-
     let sponsorRevealFrame = 0;
 
     function getSponsorIntroTargets(section) {
